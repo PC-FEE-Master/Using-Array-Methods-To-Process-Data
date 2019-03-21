@@ -41,14 +41,44 @@ let final_3 = answer.map(function(b) {
 document.querySelector("#answer3").innerHTML = final_3;
 
 // answer 4
+<<<<<<< HEAD
+let wooditems =
+  items
+    .filter(a => a.materials.includes("wood"))
+    .map(a => a.title + ` is made of wood.`)
+    .join(`<br><br>`)
+
+    document.querySelector("#answer4").innerHTML = wooditems;
+
+=======
 let wooditems = items.materials.indexOf("wood");
 
 
 console.log(wooditems);
+>>>>>>> f820d4a9b74f80e01ae1ee00dc887ceded892ce1
 
 
 // answer 5
 
+<<<<<<< HEAD
+let eightormore =
+  items
+    .filter(a => a.materials.length >= 8)
+    .map(a => `${a.title} has ${a.materials.length} materials:<br>${a.materials.join(`<br>`)}`)
+    .join(`<br><br>`)
+
+    document.querySelector("#answer5").innerHTML = eightormore;
+
+
+//answer 6
+
+let sellers =
+  items
+    .filter(a => a.who_made === "i_did").length
+    
+
+    document.querySelector("#answer6").innerHTML = `${sellers} were made by their sellers.`
+=======
 
 
 
@@ -63,3 +93,4 @@ console.log(wooditems);
 
 
 //answer 6
+>>>>>>> f820d4a9b74f80e01ae1ee00dc887ceded892ce1
