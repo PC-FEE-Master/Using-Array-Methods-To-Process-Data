@@ -38,5 +38,28 @@ let final_3 = answer.map(function(b) {
   return b.title + 'costs &pound;' + b.price;
 
 })
-console.log(final_3);
 document.querySelector("#answer3").innerHTML = final_3;
+
+// answer 4
+let wooditems = items.materials.indexOf("wood");
+
+
+console.log(wooditems);
+
+
+// answer 5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//answer 6
